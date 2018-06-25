@@ -1,0 +1,76 @@
+div.bs-top::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -2;
+    background-image: url('http://hddfhm.com/images/american-sign-language-clipart-14.jpg');
+    background-size: cover;
+    opacity: 0.1;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ui-widget-content {
+    text-align: center;
+}
+
+#draggable {
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+}
+
+#droppable {
+    width: 350px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#dropppable {
+    width: 350px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+#draggable {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.asl-schema {
+    margin: 0, auto;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    border: 1px solid black;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 50px 0 50px;
+    border-color: #a3a3a3 transparent transparent transparent;
+    border-color: rgb(163, 163, 163) transparent transparent;
+    border-width: 100px 50px 0px;
+}
